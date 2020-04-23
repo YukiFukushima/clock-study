@@ -1,0 +1,147 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.start_box_text:hover{
+    opacity: 0.5;
+    cursor: grab;
+}
+.answer_check_text:hover{
+    opacity: 0.5;
+    cursor: grab;
+}
+.lesson_category:hover{
+    opacity: 0.5;
+    cursor: grab;
+}
+/* header */
+header p{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* lesson_box */
+.lesson_category{
+    width: 400px;
+    height: 40px;
+    margin: 0 auto;
+
+    background-color: gold;
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.lesson_category a{
+    color:blue;
+    text-decoration: none;
+}
+
+/* start_box */
+.start_box_text{
+    width: 400px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: dodgerblue;
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+/* time_box */
+.time_box{
+    margin-top: 30px;
+}
+.dial_box{
+    width: 480px;
+    height: 480px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+}
+.hour_hand{
+    width: 130px;
+    height: 10px;
+    background-color: deeppink;
+    position: absolute;
+    top: 240px;
+    left: 240px;
+    border-radius: 30px;
+    transform-origin: 0;
+    transform: rotate(0deg);
+}
+.minutes_hand{
+    width: 170px;
+    height: 7px;
+    background-color: black;
+    position: absolute;
+    top: 240px;
+    left: 240px;
+    border-radius: 30px;
+    transform-origin: 0;
+    transform: rotate(-90deg);
+}
+
+/* input_box */
+.input_time_box{
+    width: 480px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.input_box span{
+    font-size: 30px;
+}
+
+/* answer_box */
+.answer_box_check{
+    width: 400px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    text-align: center;
+    border-radius: 50px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.answer_check_text{
+    font-size: 40px;
+}
+.answer_box_text{
+    width: 480px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.answer_box_text p{
+    font-size: 40px;
+}
+.answer_box_text .answer_img{
+    padding-top: 18px;
+}
+
+/* footer */
+footer .container{
+    background-color: #707070;
+}
+footer .footer_text{
+     text-align: center;
+     margin-top: 60px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     color: white;
+     font-size: 16px;
+}
+
+
+
+
