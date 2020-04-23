@@ -96,7 +96,7 @@ $('.answer_box_check').on("click",function(){
 
         $('.answer_text').text('せいかい！');
         $('.answer_text').css('color', 'red');
-        $('.answer_img img').attr('src','../img/shufu-ok.png');
+        $('.answer_img img').attr('src','https://yukifukushima.github.io/clock-study/shufu-ok.png');
     }
     else{
         $('.answer_text').show();
@@ -104,7 +104,7 @@ $('.answer_box_check').on("click",function(){
 
         $('.answer_text').text('ほんとう？');
         $('.answer_text').css('color', 'black');
-        $('.answer_img img').attr('src','../img/shufu-gimon.png');
+        $('.answer_img img').attr('src','https://yukifukushima.github.io/clock-study/shufu-gimon.png');
     }
 
     //ページを少し下に移動
