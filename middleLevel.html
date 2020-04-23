@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang='ja'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel="stylesheet" href="../css/style.css">
+  <title>ClockStudy</title>
+</head>
+
+<body>
+
+  <!--header-->
+  <header>
+    <div class="container">
+      <p>とけいのべんきょう</p>
+    </div>
+  </header>
+
+  <!--start_box-->
+  <div class="start_box">
+    <div class="container">
+      <p class="start_box_text">START</p>
+    </div>
+  </div>
+
+  <!--time_box-->
+  <div class="time_box">
+    <div class="container">
+      <div class="dial_box">
+        <img class="dial_box_img" src="../img/時計文字盤フリー.png" alt="">
+        <div class="hour_hand"></div>
+        <div class="minutes_hand"></div>
+      </div>
+    </div>
+  </div>
+
+  <!--input_box-->
+  <div class="input_box">
+    <div class="container">
+      <div class="input_time_box">
+        <div class="input_hour_box">
+          <select id="input_hour" style="font-size:30px">
+            <select id="input_hour" style="font-size:30px"></select>
+          <span>じ</span>
+        </div>
+        <!---->
+        <div class="input_minutes_box">
+          <select id="input_minutes" style="font-size:30px"></select>
+          <span>ふん</span>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!--answer_box-->
+  <div class="answer_box">
+    <div class="container">
+      <div class="answer_box_check">
+        <p class="answer_check_text">こたえあわせ</p>
+      </div>
+      <div class="answer_box_text">
+        <div class="answer_img">
+          <img src="../img/shufu-ok.png" alt="" width="100px" height="100px">
+        </div>
+        <p class="answer_text">せいかい！</p>
+        <div class="answer_img">
+          <img src="../img/shufu-ok.png" alt="" width="100px" height="100px">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--footer-->
+  <footer>
+    <div class="container">
+      <p class="footer_text">
+        copyrights 2020 Yuki Fukushima All RIghts Reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- jqueryを使う時はここでCDNを読み込みます（必ず先に読み込む） -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  <!-- ここにjsを読み込みます -->
+  <script src='../js/middleLevel.js'></script>
+</body>
+
+</html>
